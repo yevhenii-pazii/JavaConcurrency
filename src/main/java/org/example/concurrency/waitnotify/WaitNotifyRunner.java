@@ -5,7 +5,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Slf4j
-@Component
+//@Component
 public class WaitNotifyRunner implements CommandLineRunner {
 
     private static class Some {
