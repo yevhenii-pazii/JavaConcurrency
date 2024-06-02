@@ -44,3 +44,7 @@ public interface CrudService<K, V> {
 Implement service that will do work asynchronously using thread pool. 
 
 [//]: # (TODO how to test)
+
+## Task 4: Producer-Consumer Scenario
+- **Scenario**: Consider a message queue system. Producers add messages to the queue, and consumers retrieve and process them. Implement proper synchronization using `wait()` and `notify()` to avoid overflows or underflows.
+- **Use Case**: Building a real-time chat application with message queues.
